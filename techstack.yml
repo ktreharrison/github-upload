@@ -1,11 +1,12 @@
 repo_name: ktreharrison/github-upload
 report_id: c903f370a1a8709ed517f0b60dfd4d14
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T13:21:35+00:00'
+timestamp: '2024-02-29T18:01:44+00:00'
 requested_by: ktreharrison
 provider: github
 branch: master
-detected_tools_count: 2
+detected_tools_count: 5
 tools:
 - name: CSS 3
   description: The latest evolution of the Cascading Style Sheets language
@@ -15,7 +16,20 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/ktreharrison/github-upload
   detection_source: Repo Metadata
+- name: pgvector
+  description: Open-source vector similarity search for Postgres
+  website_url: https://github.com/pgvector/pgvector/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/109221/default_b888cdf5617d936aa6aacf130911906955508639.png
+  detection_source_url: https://github.com/ktreharrison/github-upload/blob/master/license.txt
+  detection_source: license.txt
+  last_updated_by: Ken Harrison
+  last_updated_on: 2022-01-08 20:08:14.000000000 Z
 - name: Git
   description: Fast, scalable, distributed revision control system
   website_url: http://git-scm.com/
@@ -24,4 +38,27 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ktreharrison/github-upload
   detection_source: Repo Metadata
+- name: HTML
+  description: Hypertext Markup Language for creating web pages.
+  website_url: http://
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/2270/no-img-open-source.png
+  detection_source_url: https://github.com/ktreharrison/github-upload/blob/master/dist/index.html
+  detection_source: dist/index.html
+  last_updated_by: Ken Harrison
+  last_updated_on: 2022-01-08 20:08:14.000000000 Z
+- name: LangChain
+  description: Build AI apps with LLMs through composability
+  website_url: https://github.com/hwchase17/langchain
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source_url: https://github.com/ktreharrison/github-upload/blob/master/license.txt
+  detection_source: license.txt
+  last_updated_by: Ken Harrison
+  last_updated_on: 2022-01-08 20:08:14.000000000 Z
